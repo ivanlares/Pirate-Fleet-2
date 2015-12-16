@@ -115,7 +115,7 @@ class ControlCenter {
     let xLargeShip = Ship(length: 5, location: GridLocation(x: 7, y: 2), isVertical: true)
     human.addShipToGrid(xLargeShip)
     
-    let mine1 = Mine(location: GridLocation(x: 6, y: 0), guaranteesHit: true, penaltyText: "Boom")
+    let mine1 = Mine(location: GridLocation(x: 6, y: 0), penaltyText: "Boom")
     human.addMineToGrid(mine1)
     
     let mine2 = Mine(location: GridLocation(x: 3, y: 3), guaranteesHit: true, penaltyText: "Boom")
